@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fanganstudio-react-app/static/css/main.433fd4db.css",
-    "main.js": "/fanganstudio-react-app/static/js/main.6f055eb5.js",
+    "main.js": "/fanganstudio-react-app/static/js/main.85fcabae.js",
     "index.html": "/fanganstudio-react-app/index.html",
     "main.433fd4db.css.map": "/fanganstudio-react-app/static/css/main.433fd4db.css.map",
-    "main.6f055eb5.js.map": "/fanganstudio-react-app/static/js/main.6f055eb5.js.map"
+    "main.85fcabae.js.map": "/fanganstudio-react-app/static/js/main.85fcabae.js.map"
   },
   "entrypoints": [
     "static/css/main.433fd4db.css",
-    "static/js/main.6f055eb5.js"
+    "static/js/main.85fcabae.js"
   ]
 }
