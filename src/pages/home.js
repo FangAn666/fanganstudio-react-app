@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import './home.css'
 import jsonData from '../contents/Inteoduce.json'
+import { Link } from 'react-router-dom';
 // import { t } from 'i18next';
 
 const Home = () => {
@@ -63,11 +64,11 @@ const Home = () => {
                             <div className='col circle-container'>
                                 <div className='circle'>
                                     <div className='left-half'>
-                                        <img src='img/fangan_waxsmts.webp' alt="fangan"></img>
+                                        <img src={`${process.env.PUBLIC_URL}/img/fangan_waxsmts.webp`} alt="fangan"></img>
                                     </div>
                                     
                                     <div className='right-half'>
-                                        <img src='img/dwd.webp' alt='image2'></img>
+                                        <img src={`${process.env.PUBLIC_URL}/img/dwd.webp`}alt='image2'></img>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +178,7 @@ const Home = () => {
                         </ol>
                         <br/>
                         <div className='d-flex justify-content-center align-items-center'>
-                            <p>詳細可以看我的 <a href="/colloection"><button className='btn btn-sm'>作品集</button></a></p>
+                            <p>詳細可以看我的 <Link to="/collection"><button className='btn btn-sm'>作品集</button></Link></p>
                         </div>
                     </div>    
                 </div>
