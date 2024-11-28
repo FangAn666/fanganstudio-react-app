@@ -1,0 +1,55 @@
+{
+    "content":{
+        "name_ou":{
+            "CN":"風安",
+            "EN":"Fang An"
+        },
+        "name_og":{
+            "CN":"林利恩",
+            "EN":"George Ling Lee Onn"
+        },
+        "About":{
+            "Country":"Malaysia",
+            "From":"Sarawakian",
+            "CL":"長榮大學資工系學士",
+            "EL":"Bachelor of CSIE, Chang Jung Christian University",
+            "Ct":"畢業之後返回家鄉，之後前往新西蘭打工。這些經歷加深了對自己的認知，從而想創造屬於自己的故事。所以現在正在努力成為一個自由創作者，同時尋求更高的學問。目標是什麽？我不知道。但我知道我要比昨天的自己更加好",
+            "Ct_En":"After graduating, I returned to my hometown and later went to New Zealand for a working holiday. These experiences deepened my self-understanding, inspiring me to create my own story. So now, I am striving to become a freelance creator while pursuing greater knowledge. What is my goal? I don’t know. But I know I want to be better than I was yesterday.",
+            "Cm_1":"我才不去做生意,因爲我知道一定是我虧"
+            
+
+        },
+        "Skils":{
+            "ITqust":["IT 問題詢問","IT Question"],
+            "ITdevT":["開發構想","Development"],
+            "ITdevPY":["Python 開發","Python Development"],
+            "ITdevJ":["Java 開發","Java Development"],
+            "vc":["影片剪輯","Video Editing"]
+
+        },
+        "NowProject":{
+            "Ct":""
+        },
+        "contact":{
+            "email":"glinfang241@gmail.com",
+            "YT":"@FengAn998L",
+            "FB":"@FangAnKWS",
+            "IG":"lgeorge241",
+            "CN":["如果需要服務，請聯絡我","目前提供的管道只有Email、IG或者FB的message可以使用"],
+            "EN":["If you need service, please contact me","Currently, only Email, IG or FB message can be used"]
+        },
+        "ch":{
+                "Github":"https://github.com/Fangan998",
+                "Youtube":{
+                    "c1":"https://www.youtube.com/@FengAn998L",
+                    "c2":"https://www.youtube.com/@FengAn2"
+                },
+                "instagram":"https://www.instagram.com/lgeorge241/",
+                "facebook":"https://www.facebook.com/FangAnKWS",
+                "threads":"https://www.threads.net/@lgeorge241"
+            }
+              
+        
+
+    }
+}

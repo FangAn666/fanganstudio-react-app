@@ -1,0 +1,11 @@
+.furnish {
+    background-image: repeating-linear-gradient(40deg, #ff8800, transparent 2ch);
+    background-color: #ffffff; /* 深黑色 */
+    text-align: center;
+    color: #000000; /* 亮橙色 */
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 5px solid #c3c3c3; 
+
+}

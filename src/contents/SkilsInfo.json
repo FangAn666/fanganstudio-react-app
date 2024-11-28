@@ -1,0 +1,31 @@
+{
+    "vc":{
+        "name":"影片剪輯",
+        "EN":"Video Editing",
+        "content":{
+            
+        }
+    },
+    
+    "ITdevPY":{
+        "name":"Python 開發",
+        "EN":"Python Development", 
+        "content":{
+
+        }
+    },
+    
+    "ITdevT": {
+        "name":"開發構想",
+        "EN":"Development",
+        "content":{
+            
+        }
+    },
+    
+    "ITqust":{
+        "name": "IT 問題詢問"
+    }
+    
+
+}

@@ -1,0 +1,168 @@
+/* style & size setting */
+.mian_contant{
+    /* background-color: #F1F2EE; */
+    max-width   :   100%;
+    max-height  :   100%;
+    
+}
+ 
+.name_card{
+    max-width: 50%;
+    
+}
+/* 
+img{
+    max-width: 180px;
+} */
+
+.dwd{
+    transition: width 2s, height 4s;
+}
+
+table tr{
+    line-height: 2;
+    border-bottom : 1px;
+    border-style: solid;
+    border-color:rgb(196, 196, 196);
+    
+}
+
+tr td {
+    padding-right: 2ch;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+.viewby{
+    background-color: #F1F2EE;
+    
+}
+
+/* .About .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.about-content p {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.about-content p.fade-in {
+    opacity: 1;
+}
+
+
+/* img setting */
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* 容器的寬度 */
+    height: 200px; /* 容器的高度 */
+}
+
+.circle {
+    position: relative;
+    width: 200px; /* 圓形的寬度 */
+    height: 200px; /* 圓形的高度 */
+    border-radius: 50%; /* 製造圓形 */
+    overflow: hidden; /* 確保內容被裁剪成圓形 */
+    border: 4px solid black; /* 添加邊框 */
+    
+}
+
+.left-half, .right-half {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 各佔一半寬度 */
+    height: 100%;
+    overflow: hidden; /* 隱藏內容外多餘部分 */
+    border: 2px solid black; /* 添加邊框 */
+}
+
+.left-half {
+    left: 0; /* 定位到左側 */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* 定義左半部分 */
+}
+
+.right-half {
+    right: 0; /* 定位到右側 */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* 定義右半部分 */
+}
+
+img {
+    position: absolute;
+    width: 200px; /* 圖片的寬度與圓形一致 */
+    height: 200px; /* 圖片的高度與圓形一致 */
+    object-fit: cover; /* 保持圖片比例並填滿容器 */
+}
+
+
+.left-half img {
+    position: absolute;
+    width: 200px; /* 確保圖片與圓形一致 */
+    height: 200px;
+    object-fit: cover; /* 確保圖片比例適應 */
+    top: 50%; /* 垂直調整基準 */
+    left: 50%; /* 水平調整基準 */
+    transform: translate(-50%, -40%); /* 微調位置 */
+}
+
+/* 右半邊圖片樣式 */
+.right-half img {
+    position: absolute;
+    width: 200px; /* 確保圖片與圓形一致 */
+    height: 200px;
+    object-fit: cover; /* 確保圖片比例適應 */
+    top: 50%; /* 垂直調整基準 */
+    left: 50%; /* 水平調整基準 */
+    transform: translate(-65%, -30%); /* 微調位置 */
+}
+
+
+
+/* fonts setting */
+.txt{
+    font: 400;
+}
+
+p.name{
+    font-size: xx-large;
+}
+
+p, .btn, ol.list-group li{
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-size: 2.3ch;
+    font-style: normal;                                                                                                                                                                       
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Noto Sans SC", serif;
+    font-size: 3ch;
+
+}
+
+table td{
+    font-family: "Noto Sans SC", serif;
+    font-style: italic;
+}
+table td:first-child{
+    font-family: "Noto Sans SC", serif;
+    font-style: normal;
+    font-weight: bold
+}
+
+.list-group-item:nth-last-child(-n+4) {
+    text-decoration: line-through;
+}
+
+.contact_btn .btn{
+    font-family: "Noto Sans SC", serif;
+    font-style: normal;
+    font-weight: bold;
+}

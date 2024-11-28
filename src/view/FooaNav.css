@@ -1,0 +1,13 @@
+nav.nav_font{
+    font-family:"Oswald", serif;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+footer.foo_font, footer.foo_font h5{
+    font-family:"Oswald", serif;
+    /* font-size: 1rem; */
+}
