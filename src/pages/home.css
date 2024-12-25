@@ -47,11 +47,13 @@ table tr:last-child {
 } */
 
 .about-content p {
+    overflow-y: auto;
     opacity: 0;
     transition: opacity 1.5s ease;
 }
 
 .about-content p.fade-in {
+    
     opacity: 1;
 }
 

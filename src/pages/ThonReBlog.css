@@ -1,5 +1,6 @@
 .viewby{
     background-color: white;
+    padding-bottom: 1.2ch;
 }
 
 .furnish {
@@ -12,4 +13,8 @@
     font-weight: bold;
     border: 5px solid #c3c3c3; 
 
+}
+
+.language-switch{
+    
 }
